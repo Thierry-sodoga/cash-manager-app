@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.example_demo_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.intelligecia.web.models.Cheques</class>
+    <class>com.intelligecia.web.models.CheckoutCheque</class>
+    <class>com.intelligecia.web.models.Users</class>
+    <class>com.intelligecia.web.models.CheckoutCards</class>
+    <class>com.intelligecia.web.models.Articles</class>
+    <class>com.intelligecia.web.models.Cards</class>
+    <class>com.intelligecia.web.Cards</class>
+    <class>com.intelligecia.web.Users</class>
+    <class>com.intelligecia.web.Cheques</class>
+    <class>com.intelligecia.web.CheckoutCheque_1</class>
+    <class>com.intelligecia.web.Articles</class>
+    <class>com.intelligecia.web.CheckoutCards_1</class>
+    <class>com.intelligecia.web.models.CheckoutCheque_1</class>
+    <class>com.intelligecia.web.models.CheckoutCards_1</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://172.104.144.248:3306/projetap_cash?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="projetap_cash"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="Zbz8FYQq-Ct("/>
+    </properties>
+  </persistence-unit>
+</persistence>

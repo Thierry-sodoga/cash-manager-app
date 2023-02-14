@@ -1,0 +1,45 @@
+name: CashManager
+description: "The aim of this project is to build a distant payment system that can receive and execute orders issued by a terminal app on your phone."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.4
+  shared_preferences: ^2.0.15
+  flutter_launcher_icons: ^0.11.0
+  http: ^0.13.5
+  dio: ^4.0.6
+  font_awesome_flutter: ^10.2.1
+  flutter_svg: ^1.1.6
+  card_scanner: ^0.2.2
+  fluttertoast: ^8.1.2
+  sqflite: ^2.2.3
+  path_provider: ^2.0.11
+  badges: ^2.0.3
+  camera: ^0.10.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/
+    - assets/images/
+    - assets/icone/
+    
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo.png"
